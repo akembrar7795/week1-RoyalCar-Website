@@ -1,0 +1,144 @@
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: lightgray !important;
+}
+
+
+.container{
+    border-bottom: 2px solid #6D214F;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    position: fixed;
+    color:white;
+}
+.hidden{
+    height: 100px;
+    display: hidden;
+}
+.anchor-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    order: 2;
+    font-size: 20px;
+}
+.anchor-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    flex: 1;
+    order: 1;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+.container a:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+.bottom-big-container{
+    display: flex;
+    margin-top: 5px;
+}
+.left{
+    flex: 1;
+    justify-content: flex-start;
+    height: 100vw;
+    border-right: 1px solid gray;
+}
+.right{
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.left li{
+    margin-top: 25px;
+}
+.left h3{
+    font-size: 25px;
+    margin-left: 8px;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.left a:hover{
+    text-decoration: underline;
+
+}
+.right div{
+    /*border: 1px solid lightgray;*/
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    height: 370px;;
+}
+
+.right img{
+    height: 300px;
+    width: 450px;
+}
+.right p{
+    display: flex;
+    justify-content: center;
+}
+.right a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.right div:hover{
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+}
+.footer div{   
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.search-container{
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 0 !important;
+    margin: 0 !important;
+    margin-top: 10px !important;
+    transform: none !important;
+    background-color: lightgray !important;
+}
+.search-container input{
+    width: 50%;
+    height: 30px;
+}
+.search-container i{
+    font-size: 25px;
+}
